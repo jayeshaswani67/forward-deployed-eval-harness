@@ -1,0 +1,23 @@
+# Environment & Secret Variables
+.env
+.env.*
+!.env.example
+
+# Python Artifacts & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Test & Evaluation Artifacts
+.pytest_cache/
+eval_results.json
+pr_comment.md
+
+# IDE & OS Files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
